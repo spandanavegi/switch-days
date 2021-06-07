@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x;
+    cout<<"enter the value of x\n";
+    cin>>x;
+    switch(x)
+    {
+        case 1:
+        if(x==1)
+        cout<<"monday";
+        break;
+        case 2:
+        if(x==2)
+        cout<<"tuesday";
+        break;
+        case 3:
+        if(x==3)
+        cout<<"wednesday";
+        break;
+        case 4:
+        if(x==4)
+        cout<<"thursday";
+        break;
+        case 5:
+        if(x==5)
+        cout<<"friday";
+        break;
+        case 6:
+        if(x==6)
+        cout<<"saturday";
+        break;
+        case 7:
+        if(x==7)
+        cout<<"sunday";
+        break;
+        default:
+        cout<<"none";
+        break;
+        
+    }
+}
